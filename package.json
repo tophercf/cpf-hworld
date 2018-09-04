@@ -1,0 +1,12 @@
+{
+  "name": "cpf-hworld",
+  "version": "1.0.2",
+  "description": "real simply module to learn how to add definition files and publish to npm",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "rimraf dist && tsc && npm publish"
+  },
+  "types": "dist/index.d.ts",
+  "author": "cpfowlke",
+  "devDependencies": {}
+}
